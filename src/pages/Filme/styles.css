@@ -1,0 +1,33 @@
+.filme-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+}
+
+.filme-info img {
+  border-radius: 50px;
+}
+
+p {
+  text-align: justify;
+}
+
+.button_container {
+  text-align: center;
+  margin-top: 20px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_container a {
+  text-decoration: none;
+  background-color: brown;
+  width: 30%;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px;
+}
